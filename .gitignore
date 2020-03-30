@@ -1,2 +1,4 @@
 *.zip
 *.csv
+urls.txt
+rename.sh

@@ -1,3 +1,5 @@
 #!/bin/bash
 
-wget -N -i urls.txt
+mkdir -p /data/fara
+aria2c -x 16 -i urls.txt -d /data/fara --continue
+
